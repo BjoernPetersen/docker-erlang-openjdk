@@ -1,0 +1,4 @@
+FROM erlang:21-slim
+RUN apt-get update\
+  && apt-get install openjdk-8-jdk-headless\
+  && apt-get clean
